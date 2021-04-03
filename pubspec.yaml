@@ -1,0 +1,35 @@
+name: alhisabat
+description: Al-Hisabat financial application
+publish_to: 'none'
+version: 1.0.0
+
+environment: # Dart SDK Version
+  sdk: ">=2.11.0-213.0.dev <2.12.0" # ">=2.10.0 <3.0.0"
+# "shared_preferences" requires NullSafety, and NullSafety requires Dart SDK 2.11s+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  lottie: ^0.7.0+1
+  carousel_slider: ^2.3.1
+  shared_preferences: ^0.5.12+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/hologram_1.png
+    - assets/img/intro_4.png
+    - assets/img/intro_5.png
+    - assets/img/intro_6.png
+    - assets/img/intro_wave_2.jpg
+    - assets/img/circle_white_1.png
+    - assets/img/login_logo_1.png
+    - assets/lottie/intro_1.json
+    - assets/lottie/intro_2.json
+    - assets/lottie/intro_3.json
